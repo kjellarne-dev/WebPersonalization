@@ -1,0 +1,83 @@
+! Newspaper word explainer text
+*##span:remove-class(word-explainer-text)
+*##.word-explainer-text-icon
+*##.word-explanation
+
+! https://www.rb.no
+www.rb.no##amedia-incentive
+www.rb.no###aid-overlay
+www.rb.no##+js(ra.js, class, div.aid-background-blur)
+
+! https://www.ao.no
+www.ao.no##amedia-incentive
+www.ao.no###aid-overlay
+www.ao.no##+js(ra.js, class, div.aid-background-blur)
+
+! https://www.t-a.no
+www.t-a.no##amedia-incentive
+www.t-a.no###aid-overlay
+www.t-a.no##+js(ra.js, class, div.aid-background-blur)
+
+! https://www.youtube.com
+www.youtube.com##.ytd-popup-container.style-scope > .yt-tooltip-renderer.style-scope
+www.youtube.com###contentWrapper > .ytd-popup-container.style-scope
+
+! https://app.klarna.com
+app.klarna.com###root > div > .UNREDACTED-cs-screen-sharing
+
+! https://www.namdalsavisa.no
+www.namdalsavisa.no##amedia-incentive
+
+! https://www.aftenposten.no
+www.aftenposten.no###eBeJ_lKweIfc > .__sc.children
+www.aftenposten.no###eBeJ_lKweIf > .__wc > .section
+www.aftenposten.no###eBeJ_lKweIf > .__wc
+www.aftenposten.no###ppCReUpUOZb > main > .__s.__section
+
+! https://www.vg.no
+vg.no##:xpath(//article[div/a[contains(@href,"/dinepenger/")]])
+vg.no##:xpath(//article[div/a[contains(@href,"/sport/")]])
+vg.no##:xpath(//section[div/a/img[contains(@src,"/humorpallen")]])
+vg.no##:xpath(//article[div/a[contains(@href,"butikk.vg.no/")]])
+vg.no##:xpath(//article[div/a[contains(@href,"/spill/")]])
+vg.no##:xpath(//article[div/a[contains(@href,"/rampelys/")]])
+vg.no##:xpath(//article[div/a[contains(@href,"vektklubb.no/")]])
+vg.no##:xpath(//article[div/a[contains(@href,"godt.no/")]])
+vg.no##:xpath(//article[div/a[contains(@href,"minmote.no/")]])
+vg.no##:xpath(//article[div/a[contains(@href,"/mat-og-drikke/")]])
+vg.no##:xpath(//article[div/a[contains(@href,"/rikets-roast")]])
+vg.no##:xpath(//section[a[contains(@href,"/rikets-roast")]])
+vg.no##:xpath(//section[a[contains(@href,"/jonnysgym")]])
+vg.no##:xpath(//article[div/a[contains(@href,"vg.e-pages.pub/")]])
+vg.no##:xpath(//section[div/div/a[contains(@href,"ikke-lov-a-le-pa-hytta")]])
+vg.no##:xpath(//article[@class="article-extract"]/ancestor::aside[@id="hoyrelopet"])
+vg.no##.is-paywalled
+vg.no##.finn-blink-loaded
+vg.no##.advert-finn-dist
+vg.no##[href^="https://www.vg.no/spesial/2023/valgomat/"]
+vg.no##[id^="finn-netboard_article-"]
+vg.no##[id^="finn-_article-"]
+vg.no##vg-dynamic-widget
+vg.no##abbr:style(border-style: none !important)
+
+! https://www.tk.no
+www.tk.no##.bacchus-incentive-wrapper.incentive-standard > .content-wrapper
+www.tk.no##.incentive-block
+www.tk.no##.image-wrapper
+! Blocks assets.acdn.no/pkg/bacchus/1.0.0-1709809746558/embeds/incentive/frontend/js/incentive.js
+/assets.acdn.no\/.*\/incentive.js/$script,domain=tk.no
+
+! https://www.digi.no
+www.digi.no##.tp-modal
+www.digi.no##.tp-active.tp-backdrop
+digi.no##body:style(overflow: auto !important)
+digi.no##html:style(overflow: auto !important)
+
+! https://www.sparebank1.no
+www.sparebank1.no##.kampanjebanner
+
+! https://www.proshop.no
+www.proshop.no##.visible-lg.site-background-cta
+
+! https://www.innherred.no
+www.innherred.no##.gdpr-modal
