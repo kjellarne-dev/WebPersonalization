@@ -35,9 +35,9 @@ www.aftenposten.no###eBeJ_lKweIf > .__wc
 www.aftenposten.no###ppCReUpUOZb > main > .__s.__section
 
 ! https://www.vg.no
+vg.no##:xpath(//div[a[contains(@href,"/vglista/")]])
 vg.no##:xpath(//article[div/a[contains(@href,"/dinepenger/")]])
 vg.no##:xpath(//article[div/a[contains(@href,"/sport/")]])
-vg.no##:xpath(//section[div/a/img[contains(@src,"/humorpallen")]])
 vg.no##:xpath(//article[div/a[contains(@href,"butikk.vg.no/")]])
 vg.no##:xpath(//article[div/a[contains(@href,"/spill/")]])
 vg.no##:xpath(//article[div/a[contains(@href,"/rampelys/")]])
@@ -46,11 +46,13 @@ vg.no##:xpath(//article[div/a[contains(@href,"godt.no/")]])
 vg.no##:xpath(//article[div/a[contains(@href,"minmote.no/")]])
 vg.no##:xpath(//article[div/a[contains(@href,"/mat-og-drikke/")]])
 vg.no##:xpath(//article[div/a[contains(@href,"/rikets-roast")]])
+vg.no##:xpath(//article[div/a[contains(@href,"vg.e-pages.pub/")]])
+vg.no##:xpath(//article[@class="article-extract"]/ancestor::aside[@id="hoyrelopet"])
+vg.no##:xpath(//section[a[contains(@href,"/ida-og-vegard")]])
 vg.no##:xpath(//section[a[contains(@href,"/rikets-roast")]])
 vg.no##:xpath(//section[a[contains(@href,"/jonnysgym")]])
-vg.no##:xpath(//article[div/a[contains(@href,"vg.e-pages.pub/")]])
+vg.no##:xpath(//section[div/a/img[contains(@src,"/humorpallen")]])
 vg.no##:xpath(//section[div/div/a[contains(@href,"ikke-lov-a-le-pa-hytta")]])
-vg.no##:xpath(//article[@class="article-extract"]/ancestor::aside[@id="hoyrelopet"])
 vg.no##.is-paywalled
 vg.no##.finn-blink-loaded
 vg.no##.advert-finn-dist
