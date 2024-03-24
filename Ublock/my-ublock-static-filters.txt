@@ -4,35 +4,80 @@
 *##.word-explanation
 
 ! https://www.rb.no
-www.rb.no##amedia-incentive
-www.rb.no###aid-overlay
-www.rb.no##+js(ra.js, class, div.aid-background-blur)
+rb.no##amedia-incentive
+rb.no###aid-overlay
+rb.no##div:remove-class("aid-background-blur")
+rb.no##:xpath(//subscription-product-marketing)
+rb.no##:xpath(//amedia-include)
+rb.no##:xpath(//li[a[contains(@href,"www.alt.no/?amedia_referrer")]])
+! Blocks assets.acdn.no/pkg/bacchus/1.0.0-1709809746558/embeds/incentive/frontend/js/incentive.js
+/assets.acdn.no\/.*\/incentive.js/$script,domain=rb.no
 
 ! https://www.ao.no
-www.ao.no##amedia-incentive
-www.ao.no###aid-overlay
-www.ao.no##+js(ra.js, class, div.aid-background-blur)
+ao.no##amedia-incentive
+ao.no###aid-overlay
+ao.no##div:remove-class("aid-background-blur")
+ao.no##:xpath(//subscription-product-marketing)
+ao.no##:xpath(//amedia-include)
+ao.no##:xpath(//li[a[contains(@href,"www.alt.no/?amedia_referrer")]])
+! Blocks assets.acdn.no/pkg/bacchus/1.0.0-1709809746558/embeds/incentive/frontend/js/incentive.js
+/assets.acdn.no\/.*\/incentive.js/$script,domain=ao.no
 
 ! https://www.t-a.no
-www.t-a.no##amedia-incentive
-www.t-a.no###aid-overlay
-www.t-a.no##+js(ra.js, class, div.aid-background-blur)
+t-a.no##amedia-incentive
+t-a.no###aid-overlay
+t-a.no##div:remove-class("aid-background-blur")
+t-a.no##:xpath(//subscription-product-marketing)
+t-a.no##:xpath(//amedia-include)
+t-a.no##:xpath(//li[a[contains(@href,"www.alt.no/?amedia_referrer")]])
+! Blocks assets.acdn.no/pkg/bacchus/1.0.0-1709809746558/embeds/incentive/frontend/js/incentive.js
+/assets.acdn.no\/.*\/incentive.js/$script,domain=t-a.no
+
+! https://www.namdalsavisa.no
+namdalsavisa.no##amedia-incentive
+namdalsavisa.no###aid-overlay
+namdalsavisa.no##div:remove-class("aid-background-blur")
+namdalsavisa.no##:xpath(//subscription-product-marketing)
+namdalsavisa.no##:xpath(//amedia-include)
+namdalsavisa.no##:xpath(//li[a[contains(@href,"www.alt.no/?amedia_referrer")]])
+! Blocks assets.acdn.no/pkg/bacchus/1.0.0-1709809746558/embeds/incentive/frontend/js/incentive.js
+/assets.acdn.no\/.*\/incentive.js/$script,domain=namdalsavisa.no
+
+! https://www.mittjessheim.no
+mittjessheim.no##amedia-incentive
+mittjessheim.no###aid-overlay
+mittjessheim.no##div:remove-class("aid-background-blur")
+mittjessheim.no##:xpath(//subscription-product-marketing)
+mittjessheim.no##:xpath(//amedia-include)
+mittjessheim.no##:xpath(//li[a[contains(@href,"www.alt.no/?amedia_referrer")]])
+! Blocks assets.acdn.no/pkg/bacchus/1.0.0-1709809746558/embeds/incentive/frontend/js/incentive.js
+/assets.acdn.no\/.*\/incentive.js/$script,domain=mittjessheim.no
+
+! https://www.tk.no
+tk.no##amedia-incentive
+tk.no###aid-overlay
+tk.no##div:remove-class("aid-background-blur")
+tk.no##:xpath(//subscription-product-marketing)
+tk.no##:xpath(//amedia-include)
+tk.no##:xpath(//li[a[contains(@href,"www.alt.no/?amedia_referrer")]])
+tk.no##.bacchus-incentive-wrapper.incentive-standard > .content-wrapper
+tk.no##.incentive-block
+tk.no##.image-wrapper
+! Blocks assets.acdn.no/pkg/bacchus/1.0.0-1709809746558/embeds/incentive/frontend/js/incentive.js
+/assets.acdn.no\/.*\/incentive.js/$script,domain=tk.no
 
 ! https://www.youtube.com
-www.youtube.com##.ytd-popup-container.style-scope > .yt-tooltip-renderer.style-scope
-www.youtube.com###contentWrapper > .ytd-popup-container.style-scope
+youtube.com##.ytd-popup-container.style-scope > .yt-tooltip-renderer.style-scope
+youtube.com###contentWrapper > .ytd-popup-container.style-scope
 
 ! https://app.klarna.com
 app.klarna.com###root > div > .UNREDACTED-cs-screen-sharing
 
-! https://www.namdalsavisa.no
-www.namdalsavisa.no##amedia-incentive
-
 ! https://www.aftenposten.no
-www.aftenposten.no###eBeJ_lKweIfc > .__sc.children
-www.aftenposten.no###eBeJ_lKweIf > .__wc > .section
-www.aftenposten.no###eBeJ_lKweIf > .__wc
-www.aftenposten.no###ppCReUpUOZb > main > .__s.__section
+aftenposten.no###eBeJ_lKweIfc > .__sc.children
+aftenposten.no###eBeJ_lKweIf > .__wc > .section
+aftenposten.no###eBeJ_lKweIf > .__wc
+aftenposten.no###ppCReUpUOZb > main > .__s.__section
 
 ! https://www.vg.no
 vg.no##:xpath(//div[a[contains(@href,"/vglista/")]])
@@ -63,29 +108,21 @@ vg.no##[id^="finn-_article-"]
 vg.no##vg-dynamic-widget
 vg.no##abbr:style(border-style: none !important)
 
-! https://www.tk.no
-www.tk.no##amedia-incentive
-www.tk.no###aid-overlay
-www.tk.no##div:remove-class("aid-background-blur")
-www.tk.no##.bacchus-incentive-wrapper.incentive-standard > .content-wrapper
-www.tk.no##.incentive-block
-www.tk.no##.image-wrapper
-! Blocks assets.acdn.no/pkg/bacchus/1.0.0-1709809746558/embeds/incentive/frontend/js/incentive.js
-/assets.acdn.no\/.*\/incentive.js/$script,domain=tk.no
-! Block product marketing
-www.tk.no##subscription-product-marketing
-
 ! https://www.digi.no
-www.digi.no##.tp-modal
-www.digi.no##.tp-active.tp-backdrop
+digi.no##.tp-modal
+digi.no##.tp-active.tp-backdrop
 digi.no##body:style(overflow: auto !important)
 digi.no##html:style(overflow: auto !important)
 
 ! https://www.sparebank1.no
-www.sparebank1.no##.kampanjebanner
+sparebank1.no##.kampanjebanner
+
+! https://www.insidetelecom.no
+insidetelecom.no##.tp-modal
+insidetelecom.no##.tp-active.tp-backdrop
 
 ! https://www.proshop.no
-www.proshop.no##.visible-lg.site-background-cta
+proshop.no##.visible-lg.site-background-cta
 
 ! https://www.innherred.no
-www.innherred.no##.gdpr-modal
+innherred.no##.gdpr-modal
