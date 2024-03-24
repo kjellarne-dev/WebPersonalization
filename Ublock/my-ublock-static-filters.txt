@@ -36,6 +36,7 @@ www.aftenposten.no###ppCReUpUOZb > main > .__s.__section
 
 ! https://www.vg.no
 vg.no##:xpath(//div[a[contains(@href,"/vglista/")]])
+vg.no##:xpath(//div[a[contains(@href,"/vgpluss/")]])
 vg.no##:xpath(//article[div/a[contains(@href,"/dinepenger/")]])
 vg.no##:xpath(//article[div/a[contains(@href,"/sport/")]])
 vg.no##:xpath(//article[div/a[contains(@href,"butikk.vg.no/")]])
@@ -63,11 +64,16 @@ vg.no##vg-dynamic-widget
 vg.no##abbr:style(border-style: none !important)
 
 ! https://www.tk.no
+www.tk.no##amedia-incentive
+www.tk.no###aid-overlay
+www.tk.no##div:remove-class("aid-background-blur")
 www.tk.no##.bacchus-incentive-wrapper.incentive-standard > .content-wrapper
 www.tk.no##.incentive-block
 www.tk.no##.image-wrapper
 ! Blocks assets.acdn.no/pkg/bacchus/1.0.0-1709809746558/embeds/incentive/frontend/js/incentive.js
 /assets.acdn.no\/.*\/incentive.js/$script,domain=tk.no
+! Block product marketing
+www.tk.no##subscription-product-marketing
 
 ! https://www.digi.no
 www.digi.no##.tp-modal
