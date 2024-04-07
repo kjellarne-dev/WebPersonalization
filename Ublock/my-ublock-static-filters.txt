@@ -103,6 +103,7 @@ vg.no##:xpath(//section[a[contains(@href,"/martha-fetisha")]])
 vg.no##:xpath(//section[div[contains(@class,"vgtv-on-front")]])
 vg.no##:xpath(//section[div/a/img[contains(@src,"/humorpallen")]])
 vg.no##:xpath(//section[div/div/a[contains(@href,"ikke-lov-a-le-pa-hytta")]])
+vg.no##:xpath(//section[header[a[contains(@href,"tv.vg.no")]]])
 vg.no##.is-paywalled
 vg.no##.finn-blink-loaded
 vg.no##.advert-finn-dist
