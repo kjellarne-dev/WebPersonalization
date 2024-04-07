@@ -93,10 +93,14 @@ vg.no##:xpath(//article[div/a[contains(@href,"minmote.no/")]])
 vg.no##:xpath(//article[div/a[contains(@href,"/mat-og-drikke/")]])
 vg.no##:xpath(//article[div/a[contains(@href,"/rikets-roast")]])
 vg.no##:xpath(//article[div/a[contains(@href,"vg.e-pages.pub/")]])
+vg.no##:xpath(//article[div/a[contains(@href,"tv.vg.no")]])
+vg.no##:xpath(//article[div/a[contains(@href,"eavis.vg.no")]])
 vg.no##:xpath(//article[@class="article-extract"]/ancestor::aside[@id="hoyrelopet"])
 vg.no##:xpath(//section[a[contains(@href,"/ida-og-vegard")]])
 vg.no##:xpath(//section[a[contains(@href,"/rikets-roast")]])
 vg.no##:xpath(//section[a[contains(@href,"/jonnysgym")]])
+vg.no##:xpath(//section[a[contains(@href,"/martha-fetisha")]])
+vg.no##:xpath(//section[div[contains(@class,"vgtv-on-front")]])
 vg.no##:xpath(//section[div/a/img[contains(@src,"/humorpallen")]])
 vg.no##:xpath(//section[div/div/a[contains(@href,"ikke-lov-a-le-pa-hytta")]])
 vg.no##.is-paywalled
@@ -126,3 +130,4 @@ proshop.no##.visible-lg.site-background-cta
 
 ! https://www.innherred.no
 innherred.no##.gdpr-modal
+
