@@ -80,6 +80,7 @@ aftenposten.no###eBeJ_lKweIf > .__wc
 aftenposten.no###ppCReUpUOZb > main > .__s.__section
 
 ! https://www.vg.no
+! Block front page articles and video clips
 vg.no##:xpath(//article[div/a[contains(@href,"/dinepenger/")]])
 vg.no##:xpath(//article[div/a[contains(@href,"/sport/")]])
 vg.no##:xpath(//article[div/a[contains(@href,"butikk.vg.no/")]])
@@ -96,23 +97,32 @@ vg.no##:xpath(//article[div/a[contains(@href,"eavis.vg.no")]])
 vg.no##:xpath(//article[@class="article-extract"]/ancestor::aside[@id="hoyrelopet"])
 vg.no##:xpath(//div[a[contains(@href,"/vglista/")]])
 vg.no##:xpath(//div[a[contains(@href,"/vgpluss/")]])
-tk.no##:xpath(//push-banner)
-vg.no##:xpath(//section[a[contains(@href,"/ida-og-vegard")]])
-vg.no##:xpath(//section[a[contains(@href,"/rikets-roast")]])
-vg.no##:xpath(//section[a[contains(@href,"/jonnysgym")]])
-vg.no##:xpath(//section[a[contains(@href,"/martha-fetisha")]])
+vg.no##:xpath(//section[a[contains(@href,"tv.vg.no")]])
 vg.no##:xpath(//section[div[contains(@class,"vgtv-on-front")]])
+vg.no##:xpath(//section[div/a[contains(@href,"tv.vg.no")]])
 vg.no##:xpath(//section[div/a/img[contains(@src,"/humorpallen")]])
 vg.no##:xpath(//section[div/div/a[contains(@href,"ikke-lov-a-le-pa-hytta")]])
 vg.no##:xpath(//section[header[a[contains(@href,"tv.vg.no")]]])
+! Block paywalled content, ads, and time sensitive content
 vg.no##.is-paywalled
 vg.no##.finn-blink-loaded
 vg.no##.advert-finn-dist
+vg.no##.tiplink-wrapper
+vg.no##.skyscraper-wrap
 vg.no##[href^="https://www.vg.no/spesial/2023/valgomat/"]
 vg.no##[id^="finn-netboard_article-"]
 vg.no##[id^="finn-_article-"]
 vg.no##vg-dynamic-widget
 vg.no##abbr:style(border-style: none !important)
+! Block the banner that appears at the top of the page occasionally
+vg.no##:xpath(//push-banner)
+vg.no##.cnp-live-blogs
+! Block the script that causes the webpage title to start blinking every 2 seconds after 5 or so minutes of not interacting with the site
+||www.vg.no/vgc/cdn/vgno/assets/_astro/PushBanner*.js$script,domain=vg.no
+
+! https://www.dagbladet.no
+! Block entire website
+||dagbladet.no
 
 ! https://www.digi.no
 digi.no##.tp-modal
