@@ -3,6 +3,22 @@
 *##.word-explainer-text-icon
 *##.word-explanation
 
+! https://twitter.com
+twitter.com##.r-13qz1uu.r-1777fci.r-16y2uox.r-1awozwy.css-1dbjc4n
+twitter.com##.r-ipm5af.r-zchlnj.r-1xcajam.r-1d2f490.r-1p0dtai.r-11z020y.css-1dbjc4n
+twitter.com##.r-11nfnuw.r-16wqof.r-1dqxon3.r-16y2uox.r-kemksi.css-1dbjc4n
+twitter.com##.r-qo02w8.r-l5o3uw.css-1dbjc4n
+twitter.com##.r-g6jmlv.r-ipm5af.r-1xcajam.r-xr3zp9.r-1pjcn9w.r-1777fci.r-1pi2tsx.r-18u37iz.r-1kihuf0.r-1awozwy.css-1dbjc4n
+twitter.com##div#layers div[data-testid="sheetDialog"]:upward(div[role="group"][tabindex="0"])
+twitter.com##html:style(overflow: auto !important;)
+twitter.com##.r-1dqxon3.r-1wbh5a2.r-16y2uox.css-1dbjc4n
+twitter.com##.r-13qz1uu.r-1ye8kvj.r-1jgb5lz.r-1wbh5a2.r-16y2uox.css-1dbjc4n
+twitter.com##.r-1wbh5a2.r-16y2uox.r-6koalj.r-kemksi.css-1dbjc4n
+twitter.com##.r-1wbh5a2.r-16y2uox.r-kemksi.css-1dbjc4n > .r-1wbh5a2.r-16y2uox.r-1pz39u2.css-1dbjc4n
+twitter.com##.r-1udh08x.r-htvplk.r-1279nm1.r-1pjcn9w.r-rsyp9y.r-kwpbio.r-1wbh5a2.r-1867qdf.css-1dbjc4n > .r-1wbh5a2.r-16y2uox.r-kemksi.css-1dbjc4n
+twitter.com##.r-1udh08x.r-htvplk.r-1279nm1.r-1pjcn9w.r-rsyp9y.r-kwpbio.r-1wbh5a2.r-1867qdf.css-1dbjc4n
+twitter.com##.r-g6jmlv.r-ipm5af.r-1xcajam.r-1777fci.r-1pi2tsx.r-18u37iz.r-1awozwy.css-1dbjc4n
+
 ! https://www.rb.no
 rb.no##amedia-incentive
 rb.no###aid-overlay
@@ -88,6 +104,7 @@ vg.no##:xpath(//article[div/a[contains(@href,"/spill/")]])
 vg.no##:xpath(//article[div/a[contains(@href,"/rampelys/")]])
 vg.no##:xpath(//article[div/a[contains(@href,"vektklubb.no/")]])
 vg.no##:xpath(//article[div/a[contains(@href,"godt.no/")]])
+vg.no##:xpath(//article[div/a[contains(@href,"tek.no/")]])
 vg.no##:xpath(//article[div/a[contains(@href,"minmote.no/")]])
 vg.no##:xpath(//article[div/a[contains(@href,"/mat-og-drikke/")]])
 vg.no##:xpath(//article[div/a[contains(@href,"/rikets-roast")]])
@@ -116,6 +133,7 @@ vg.no##vg-dynamic-widget
 vg.no##abbr:style(border-style: none !important)
 ! Block the banner that appears at the top of the page occasionally
 vg.no##:xpath(//push-banner)
+vg.no##:xpath(//iframe)
 vg.no##.cnp-live-blogs
 ! Block the script that causes the webpage title to start blinking every 2 seconds after 5 or so minutes of not interacting with the site
 ||www.vg.no/vgc/cdn/vgno/assets/_astro/PushBanner*.js$script,domain=vg.no
