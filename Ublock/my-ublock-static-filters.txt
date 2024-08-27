@@ -136,8 +136,8 @@ vg.no##:xpath(//push-banner)
 vg.no##:xpath(//iframe)
 vg.no##.cnp-live-blogs
 ! Block the script that causes the webpage title to start blinking every 2 seconds after 5 or so minutes of not interacting with the site
-||www.vg.no/vgc/cdn/vgno/assets/_astro/PushBanner*.js$script,domain=vg.no
-||www.vg.no/vgc/*/PushBanner*.js$script,domain=vg.no
+! Script got moved to a new URL - block all realistically possible variants
+||*PushBanner*.js$script,domain=vg.no
 
 ! https://www.dagbladet.no
 ! Block entire website
