@@ -83,8 +83,10 @@ tk.no##.image-wrapper
 /assets.acdn.no\/.*\/incentive.js/$script,domain=tk.no
 
 ! https://www.youtube.com
-youtube.com##.ytd-popup-container.style-scope > .yt-tooltip-renderer.style-scope
-youtube.com###contentWrapper > .ytd-popup-container.style-scope
+! Block Youtube shorts section
+youtube.com##:xpath(//ytd-rich-section-renderer)
+
+
 
 ! https://app.klarna.com
 app.klarna.com###root > div > .UNREDACTED-cs-screen-sharing
