@@ -78,6 +78,7 @@ tk.no##:xpath(//amedia-include)
 tk.no##:xpath(//li[a[contains(@href,"www.alt.no/?amedia_referrer")]])
 tk.no##.bacchus-incentive-wrapper.incentive-standard > .content-wrapper
 tk.no##.incentive-block
+tk.no##.modal-incentive-component
 tk.no##.image-wrapper
 ! Blocks assets.acdn.no/pkg/bacchus/1.0.0-1709809746558/embeds/incentive/frontend/js/incentive.js
 /assets.acdn.no\/.*\/incentive.js/$script,domain=tk.no
@@ -85,7 +86,8 @@ tk.no##.image-wrapper
 ! https://www.youtube.com
 ! Block Youtube shorts section
 youtube.com##:xpath(//ytd-rich-section-renderer)
-
+www.youtube.com##ytd-rich-item-renderer:has(.badge-style-type-members-only)
+www.youtube.com##ytd-compact-video-renderer:has(.badge-style-type-members-only)
 
 
 ! https://app.klarna.com
@@ -144,7 +146,22 @@ vg.no##.cnp-live-blogs
 vg.no##[component-export^="TTSPlayer"]
 vg.no##[component-export^="ArticleSummary"]
 vg.no##[component-export^="Poll"]
-
+! Honestly don't remember why I added these
+||www.vg.no/vgc/spesial/drap-norge/assets/gfx/bg-big.jpg$image
+||akamai.vgc.no/users/schibsted/images/132602886.jpg?t%5Bcrop%5D%5Bx%5D=273&t%5Bcrop%5D%5By%5D=556&t%5Bcrop%5D%5Bwidth%5D=1087&t%5Bcrop%5D%5Bheight%5D=796&t%5Bresize%5D%5Bwidth%5D=*&accessToken=*$image
+||images.stream.schibsted.media/users/vgtv/images/12fb647a3446f355d35e4b384e15a1a8.jpg?t[]=*q50$image
+! Remove world cup spam
+vg.no##html:remove-attr(data-vg-world-cup-takeover)
+vg.no##html:remove-attr(data-vg-world-cup-takeover-size)
+vg.no##.video-flag
+vg.no##.history
+vg.no##div.ratio-container:nth-of-type(3)
+vg.no##.canvas > .wrapper
+vg.no##.vg-logo-v.vg-logo-part
+vg.no##.front.face > .vg-logo-g.vg-logo-part
+vg.no##.bottom.face > .vg-logo-m.vg-logo-part
+vg.no##.back.face > .vg-logo-g.vg-logo-part
+vg.no##.top.face > .vg-logo-m.vg-logo-part
 
 
 ! https://www.dagbladet.no
