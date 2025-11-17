@@ -1,189 +1,203 @@
 ! Newspaper word explainer text
-*##span:remove-class(word-explainer-text)
-*##.word-explainer-text-icon
-*##.word-explanation
+  *##span:remove-class(word-explainer-text)
+  *##.word-explainer-text-icon
+  *##.word-explanation
 
 ! https://twitter.com
-twitter.com##.r-13qz1uu.r-1777fci.r-16y2uox.r-1awozwy.css-1dbjc4n
-twitter.com##.r-ipm5af.r-zchlnj.r-1xcajam.r-1d2f490.r-1p0dtai.r-11z020y.css-1dbjc4n
-twitter.com##.r-11nfnuw.r-16wqof.r-1dqxon3.r-16y2uox.r-kemksi.css-1dbjc4n
-twitter.com##.r-qo02w8.r-l5o3uw.css-1dbjc4n
-twitter.com##.r-g6jmlv.r-ipm5af.r-1xcajam.r-xr3zp9.r-1pjcn9w.r-1777fci.r-1pi2tsx.r-18u37iz.r-1kihuf0.r-1awozwy.css-1dbjc4n
-twitter.com##div#layers div[data-testid="sheetDialog"]:upward(div[role="group"][tabindex="0"])
-twitter.com##html:style(overflow: auto !important;)
-twitter.com##.r-1dqxon3.r-1wbh5a2.r-16y2uox.css-1dbjc4n
-twitter.com##.r-13qz1uu.r-1ye8kvj.r-1jgb5lz.r-1wbh5a2.r-16y2uox.css-1dbjc4n
-twitter.com##.r-1wbh5a2.r-16y2uox.r-6koalj.r-kemksi.css-1dbjc4n
-twitter.com##.r-1wbh5a2.r-16y2uox.r-kemksi.css-1dbjc4n > .r-1wbh5a2.r-16y2uox.r-1pz39u2.css-1dbjc4n
-twitter.com##.r-1udh08x.r-htvplk.r-1279nm1.r-1pjcn9w.r-rsyp9y.r-kwpbio.r-1wbh5a2.r-1867qdf.css-1dbjc4n > .r-1wbh5a2.r-16y2uox.r-kemksi.css-1dbjc4n
-twitter.com##.r-1udh08x.r-htvplk.r-1279nm1.r-1pjcn9w.r-rsyp9y.r-kwpbio.r-1wbh5a2.r-1867qdf.css-1dbjc4n
-twitter.com##.r-g6jmlv.r-ipm5af.r-1xcajam.r-1777fci.r-1pi2tsx.r-18u37iz.r-1awozwy.css-1dbjc4n
+  twitter.com##.r-13qz1uu.r-1777fci.r-16y2uox.r-1awozwy.css-1dbjc4n
+  twitter.com##.r-ipm5af.r-zchlnj.r-1xcajam.r-1d2f490.r-1p0dtai.r-11z020y.css-1dbjc4n
+  twitter.com##.r-11nfnuw.r-16wqof.r-1dqxon3.r-16y2uox.r-kemksi.css-1dbjc4n
+  twitter.com##.r-qo02w8.r-l5o3uw.css-1dbjc4n
+  twitter.com##.r-g6jmlv.r-ipm5af.r-1xcajam.r-xr3zp9.r-1pjcn9w.r-1777fci.r-1pi2tsx.r-18u37iz.r-1kihuf0.r-1awozwy.css-1dbjc4n
+  twitter.com##div#layers div[data-testid="sheetDialog"]:upward(div[role="group"][tabindex="0"])
+  twitter.com##html:style(overflow: auto !important;)
+  twitter.com##.r-1dqxon3.r-1wbh5a2.r-16y2uox.css-1dbjc4n
+  twitter.com##.r-13qz1uu.r-1ye8kvj.r-1jgb5lz.r-1wbh5a2.r-16y2uox.css-1dbjc4n
+  twitter.com##.r-1wbh5a2.r-16y2uox.r-6koalj.r-kemksi.css-1dbjc4n
+  twitter.com##.r-1wbh5a2.r-16y2uox.r-kemksi.css-1dbjc4n > .r-1wbh5a2.r-16y2uox.r-1pz39u2.css-1dbjc4n
+  twitter.com##.r-1udh08x.r-htvplk.r-1279nm1.r-1pjcn9w.r-rsyp9y.r-kwpbio.r-1wbh5a2.r-1867qdf.css-1dbjc4n > .r-1wbh5a2.r-16y2uox.r-kemksi.css-1dbjc4n
+  twitter.com##.r-1udh08x.r-htvplk.r-1279nm1.r-1pjcn9w.r-rsyp9y.r-kwpbio.r-1wbh5a2.r-1867qdf.css-1dbjc4n
+  twitter.com##.r-g6jmlv.r-ipm5af.r-1xcajam.r-1777fci.r-1pi2tsx.r-18u37iz.r-1awozwy.css-1dbjc4n
 
 ! https://www.rb.no
-rb.no##amedia-incentive
-rb.no###aid-overlay
-rb.no##div:remove-class("aid-background-blur")
-rb.no##:xpath(//subscription-product-marketing)
-rb.no##:xpath(//amedia-include)
-rb.no##:xpath(//li[a[contains(@href,"www.alt.no/?amedia_referrer")]])
-! Blocks assets.acdn.no/pkg/bacchus/1.0.0-1709809746558/embeds/incentive/frontend/js/incentive.js
-/assets.acdn.no\/.*\/incentive.js/$script,domain=rb.no
+  rb.no##amedia-incentive
+  rb.no###aid-overlay
+  rb.no##div:remove-class("aid-background-blur")
+  rb.no##:xpath(//subscription-product-marketing)
+  rb.no##:xpath(//amedia-include)
+  rb.no##:xpath(//li[a[contains(@href,"www.alt.no/?amedia_referrer")]])
+  ! Blocks assets.acdn.no/pkg/bacchus/1.0.0-1709809746558/embeds/incentive/frontend/js/incentive.js
+  /assets.acdn.no\/.*\/incentive.js/$script,domain=rb.no
 
 ! https://www.ao.no
-ao.no##amedia-incentive
-ao.no###aid-overlay
-ao.no##div:remove-class("aid-background-blur")
-ao.no##:xpath(//subscription-product-marketing)
-ao.no##:xpath(//amedia-include)
-ao.no##:xpath(//li[a[contains(@href,"www.alt.no/?amedia_referrer")]])
-! Blocks assets.acdn.no/pkg/bacchus/1.0.0-1709809746558/embeds/incentive/frontend/js/incentive.js
-/assets.acdn.no\/.*\/incentive.js/$script,domain=ao.no
+  ao.no##amedia-incentive
+  ao.no###aid-overlay
+  ao.no##div:remove-class("aid-background-blur")
+  ao.no##:xpath(//subscription-product-marketing)
+  ao.no##:xpath(//amedia-include)
+  ao.no##:xpath(//li[a[contains(@href,"www.alt.no/?amedia_referrer")]])
+  ! Blocks assets.acdn.no/pkg/bacchus/1.0.0-1709809746558/embeds/incentive/frontend/js/incentive.js
+  /assets.acdn.no\/.*\/incentive.js/$script,domain=ao.no
 
 ! https://www.t-a.no
-t-a.no##amedia-incentive
-t-a.no###aid-overlay
-t-a.no##div:remove-class("aid-background-blur")
-t-a.no##:xpath(//subscription-product-marketing)
-t-a.no##:xpath(//amedia-include)
-t-a.no##:xpath(//li[a[contains(@href,"www.alt.no/?amedia_referrer")]])
-! Blocks assets.acdn.no/pkg/bacchus/1.0.0-1709809746558/embeds/incentive/frontend/js/incentive.js
-/assets.acdn.no\/.*\/incentive.js/$script,domain=t-a.no
+  t-a.no##amedia-incentive
+  t-a.no###aid-overlay
+  t-a.no##div:remove-class("aid-background-blur")
+  t-a.no##:xpath(//subscription-product-marketing)
+  t-a.no##:xpath(//amedia-include)
+  t-a.no##:xpath(//li[a[contains(@href,"www.alt.no/?amedia_referrer")]])
+  ! Blocks assets.acdn.no/pkg/bacchus/1.0.0-1709809746558/embeds/incentive/frontend/js/incentive.js
+  /assets.acdn.no\/.*\/incentive.js/$script,domain=t-a.no
 
 ! https://www.namdalsavisa.no
-namdalsavisa.no##amedia-incentive
-namdalsavisa.no###aid-overlay
-namdalsavisa.no##div:remove-class("aid-background-blur")
-namdalsavisa.no##:xpath(//subscription-product-marketing)
-namdalsavisa.no##:xpath(//amedia-include)
-namdalsavisa.no##:xpath(//li[a[contains(@href,"www.alt.no/?amedia_referrer")]])
-! Blocks assets.acdn.no/pkg/bacchus/1.0.0-1709809746558/embeds/incentive/frontend/js/incentive.js
-/assets.acdn.no\/.*\/incentive.js/$script,domain=namdalsavisa.no
+  namdalsavisa.no##amedia-incentive
+  namdalsavisa.no###aid-overlay
+  namdalsavisa.no##div:remove-class("aid-background-blur")
+  namdalsavisa.no##:xpath(//subscription-product-marketing)
+  namdalsavisa.no##:xpath(//amedia-include)
+  namdalsavisa.no##:xpath(//li[a[contains(@href,"www.alt.no/?amedia_referrer")]])
+  ! Blocks assets.acdn.no/pkg/bacchus/1.0.0-1709809746558/embeds/incentive/frontend/js/incentive.js
+  /assets.acdn.no\/.*\/incentive.js/$script,domain=namdalsavisa.no
 
 ! https://www.mittjessheim.no
-mittjessheim.no##amedia-incentive
-mittjessheim.no###aid-overlay
-mittjessheim.no##div:remove-class("aid-background-blur")
-mittjessheim.no##:xpath(//subscription-product-marketing)
-mittjessheim.no##:xpath(//amedia-include)
-mittjessheim.no##:xpath(//li[a[contains(@href,"www.alt.no/?amedia_referrer")]])
-! Blocks assets.acdn.no/pkg/bacchus/1.0.0-1709809746558/embeds/incentive/frontend/js/incentive.js
-/assets.acdn.no\/.*\/incentive.js/$script,domain=mittjessheim.no
+  mittjessheim.no##amedia-incentive
+  mittjessheim.no###aid-overlay
+  mittjessheim.no##div:remove-class("aid-background-blur")
+  mittjessheim.no##:xpath(//subscription-product-marketing)
+  mittjessheim.no##:xpath(//amedia-include)
+  mittjessheim.no##:xpath(//li[a[contains(@href,"www.alt.no/?amedia_referrer")]])
+  ! Blocks assets.acdn.no/pkg/bacchus/1.0.0-1709809746558/embeds/incentive/frontend/js/incentive.js
+  /assets.acdn.no\/.*\/incentive.js/$script,domain=mittjessheim.no
 
 ! https://www.tk.no
-tk.no##amedia-incentive
-tk.no###aid-overlay
-tk.no##div:remove-class("aid-background-blur")
-tk.no##:xpath(//subscription-product-marketing)
-tk.no##:xpath(//amedia-include)
-tk.no##:xpath(//li[a[contains(@href,"www.alt.no/?amedia_referrer")]])
-tk.no##.bacchus-incentive-wrapper.incentive-standard > .content-wrapper
-tk.no##.incentive-block
-tk.no##.modal-incentive-component
-tk.no##.image-wrapper
-! Blocks assets.acdn.no/pkg/bacchus/1.0.0-1709809746558/embeds/incentive/frontend/js/incentive.js
-/assets.acdn.no\/.*\/incentive.js/$script,domain=tk.no
+  tk.no##amedia-incentive
+  tk.no###aid-overlay
+  tk.no##div:remove-class("aid-background-blur")
+  tk.no##:xpath(//subscription-product-marketing)
+  tk.no##:xpath(//amedia-include)
+  tk.no##:xpath(//li[a[contains(@href,"www.alt.no/?amedia_referrer")]])
+  tk.no##.bacchus-incentive-wrapper.incentive-standard > .content-wrapper
+  tk.no##.incentive-block
+  tk.no##.modal-incentive-component
+  tk.no##.image-wrapper
+  ! Blocks assets.acdn.no/pkg/bacchus/1.0.0-1709809746558/embeds/incentive/frontend/js/incentive.js
+  /assets.acdn.no\/.*\/incentive.js/$script,domain=tk.no
 
 ! https://www.youtube.com
-! Block Youtube shorts section
-youtube.com##:xpath(//ytd-rich-section-renderer)
-www.youtube.com##ytd-rich-item-renderer:has(.badge-style-type-members-only)
-www.youtube.com##ytd-compact-video-renderer:has(.badge-style-type-members-only)
+  ! Block Youtube shorts section
+  youtube.com##:xpath(//ytd-rich-section-renderer)
+  www.youtube.com##ytd-rich-item-renderer:has(.badge-style-type-members-only)
+  www.youtube.com##ytd-compact-video-renderer:has(.badge-style-type-members-only)
 
 
 ! https://app.klarna.com
-app.klarna.com###root > div > .UNREDACTED-cs-screen-sharing
+  app.klarna.com###root > div > .UNREDACTED-cs-screen-sharing
+
 
 ! https://www.aftenposten.no
-aftenposten.no###eBeJ_lKweIfc > .__sc.children
-aftenposten.no###eBeJ_lKweIf > .__wc > .section
-aftenposten.no###eBeJ_lKweIf > .__wc
-aftenposten.no###ppCReUpUOZb > main > .__s.__section
+  aftenposten.no###eBeJ_lKweIfc > .__sc.children
+  aftenposten.no###eBeJ_lKweIf > .__wc > .section
+  aftenposten.no###eBeJ_lKweIf > .__wc
+  aftenposten.no###ppCReUpUOZb > main > .__s.__section
+
 
 ! https://www.vg.no
-! Block front page articles and video clips
-vg.no##:xpath(//article[div/a[contains(@href,"/dinepenger/")]])
-vg.no##:xpath(//article[div/a[contains(@href,"/sport/")]])
-vg.no##:xpath(//article[div/a[contains(@href,"butikk.vg.no/")]])
-vg.no##:xpath(//article[div/a[contains(@href,"/spill/")]])
-vg.no##:xpath(//article[div/a[contains(@href,"/rampelys/")]])
-vg.no##:xpath(//article[div/a[contains(@href,"vektklubb.no/")]])
-vg.no##:xpath(//article[div/a[contains(@href,"godt.no/")]])
-vg.no##:xpath(//article[div/a[contains(@href,"tek.no/")]])
-vg.no##:xpath(//article[div/a[contains(@href,"minmote.no/")]])
-vg.no##:xpath(//article[div/a[contains(@href,"/mat-og-drikke/")]])
-vg.no##:xpath(//article[div/a[contains(@href,"/rikets-roast")]])
-vg.no##:xpath(//article[div/a[contains(@href,"vg.e-pages.pub/")]])
-vg.no##:xpath(//article[div/a[contains(@href,"tv.vg.no")]])
-vg.no##:xpath(//article[div/a[contains(@href,"eavis.vg.no")]])
-vg.no##:xpath(//article[@class="article-extract"]/ancestor::aside[@id="hoyrelopet"])
-vg.no##:xpath(//div[a[contains(@href,"/vglista/")]])
-vg.no##:xpath(//div[a[contains(@href,"/vgpluss/")]])
-vg.no##:xpath(//section[a[contains(@href,"tv.vg.no")]])
-vg.no##:xpath(//section[div[contains(@class,"vgtv-on-front")]])
-vg.no##:xpath(//section[div/a[contains(@href,"tv.vg.no")]])
-vg.no##:xpath(//section[div/a/img[contains(@src,"/humorpallen")]])
-vg.no##:xpath(//section[div/div/a[contains(@href,"ikke-lov-a-le-pa-hytta")]])
-vg.no##:xpath(//section[header[a[contains(@href,"tv.vg.no")]]])
-! Block paywalled content, ads, and time sensitive content
-vg.no##.is-paywalled
-vg.no##.finn-blink-loaded
-vg.no##.advert-finn-dist
-vg.no##.tiplink-wrapper
-vg.no##.skyscraper-wrap
-vg.no##[href^="https://www.vg.no/spesial/2023/valgomat/"]
-vg.no##[id^="finn-netboard_article-"]
-vg.no##[id^="finn-_article-"]
-vg.no##vg-dynamic-widget
-vg.no##abbr:style(border-style: none !important)
-! Block the banner that appears at the top of the page occasionally
-vg.no##:xpath(//push-banner)
-vg.no##:xpath(//iframe)
-vg.no##.cnp-live-blogs
-! Block the script that causes the webpage title to start blinking every 2 seconds after 5 or so minutes of not interacting with the site
-! Script got moved to a new URL - block all realistically possible variants
-||*PushBanner*.js$script,domain=vg.no
-! Block AI generated content
-vg.no##[component-export^="TTSPlayer"]
-vg.no##[component-export^="ArticleSummary"]
-vg.no##[component-export^="Poll"]
-! Honestly don't remember why I added these
-||www.vg.no/vgc/spesial/drap-norge/assets/gfx/bg-big.jpg$image
-||akamai.vgc.no/users/schibsted/images/132602886.jpg?t%5Bcrop%5D%5Bx%5D=273&t%5Bcrop%5D%5By%5D=556&t%5Bcrop%5D%5Bwidth%5D=1087&t%5Bcrop%5D%5Bheight%5D=796&t%5Bresize%5D%5Bwidth%5D=*&accessToken=*$image
-||images.stream.schibsted.media/users/vgtv/images/12fb647a3446f355d35e4b384e15a1a8.jpg?t[]=*q50$image
-! Remove world cup spam
-vg.no##html:remove-attr(data-vg-world-cup-takeover)
-vg.no##html:remove-attr(data-vg-world-cup-takeover-size)
-vg.no##.video-flag
-vg.no##.history
-vg.no##div.ratio-container:nth-of-type(3)
-vg.no##.canvas > .wrapper
-vg.no##.vg-logo-v.vg-logo-part
-vg.no##.front.face > .vg-logo-g.vg-logo-part
-vg.no##.bottom.face > .vg-logo-m.vg-logo-part
-vg.no##.back.face > .vg-logo-g.vg-logo-part
-vg.no##.top.face > .vg-logo-m.vg-logo-part
+  ! Block front page articles and video clips
+    vg.no##:xpath(//article[div/a[contains(@href,"/dinepenger/")]])
+    vg.no##:xpath(//article[div/a[contains(@href,"/sport/")]])
+    vg.no##:xpath(//article[div/a[contains(@href,"butikk.vg.no/")]])
+    vg.no##:xpath(//article[div/a[contains(@href,"/spill/")]])
+    vg.no##:xpath(//article[div/a[contains(@href,"/rampelys/")]])
+    vg.no##:xpath(//article[div/a[contains(@href,"vektklubb.no/")]])
+    vg.no##:xpath(//article[div/a[contains(@href,"godt.no/")]])
+    vg.no##:xpath(//article[div/a[contains(@href,"tek.no/")]])
+    vg.no##:xpath(//article[div/a[contains(@href,"minmote.no/")]])
+    vg.no##:xpath(//article[div/a[contains(@href,"/mat-og-drikke/")]])
+    vg.no##:xpath(//article[div/a[contains(@href,"/rikets-roast")]])
+    vg.no##:xpath(//article[div/a[contains(@href,"vg.e-pages.pub/")]])
+    vg.no##:xpath(//article[div/a[contains(@href,"tv.vg.no")]])
+    vg.no##:xpath(//article[div/a[contains(@href,"eavis.vg.no")]])
+    vg.no##:xpath(//article[@class="article-extract"]/ancestor::aside[@id="hoyrelopet"])
+    vg.no##:xpath(//div[a[contains(@href,"/vglista/")]])
+    vg.no##:xpath(//div[a[contains(@href,"/vgpluss/")]])
+    vg.no##:xpath(//section[a[contains(@href,"tv.vg.no")]])
+    vg.no##:xpath(//section[div[contains(@class,"vgtv-on-front")]])
+    vg.no##:xpath(//section[div/a[contains(@href,"tv.vg.no")]])
+    vg.no##:xpath(//section[div/a/img[contains(@src,"/humorpallen")]])
+    vg.no##:xpath(//section[div/div/a[contains(@href,"ikke-lov-a-le-pa-hytta")]])
+    vg.no##:xpath(//section[header[a[contains(@href,"tv.vg.no")]]])
+
+  ! Block paywalled content, ads, and time sensitive content
+    vg.no##.is-paywalled
+    vg.no##.finn-blink-loaded
+    vg.no##.advert-finn-dist
+    vg.no##.tiplink-wrapper
+    vg.no##.skyscraper-wrap
+    vg.no##[href^="https://www.vg.no/spesial/2023/valgomat/"]
+    vg.no##[id^="finn-netboard_article-"]
+    vg.no##[id^="finn-_article-"]
+    vg.no##vg-dynamic-widget
+    vg.no##abbr:style(border-style: none !important)
+    vg.no##dr-edition-track-element
+
+  ! Block the banner that appears at the top of the page occasionally
+    vg.no##:xpath(//push-banner)
+    vg.no##:xpath(//iframe)
+    vg.no##.cnp-live-blogs
+
+  ! Block the script that causes the webpage title to start blinking every 2 seconds after 5 or so minutes of not interacting with the site
+  ! Script got moved to a new URL - block all realistically possible variants
+    ||*PushBanner*.js$script,domain=vg.no
+
+  ! Block AI generated content
+    vg.no##[component-export^="TTSPlayer"]
+    vg.no##[component-export^="ArticleSummary"]
+    vg.no##[component-export^="Poll"]
+
+  ! Honestly don't remember why I added these
+    ||www.vg.no/vgc/spesial/drap-norge/assets/gfx/bg-big.jpg$image
+    ||akamai.vgc.no/users/schibsted/images/132602886.jpg?t%5Bcrop%5D%5Bx%5D=273&t%5Bcrop%5D%5By%5D=556&t%5Bcrop%5D%5Bwidth%5D=1087&t%5Bcrop%5D%5Bheight%5D=796&t%5Bresize%5D%5Bwidth%5D=*&accessToken=*$image
+    ||images.stream.schibsted.media/users/vgtv/images/12fb647a3446f355d35e4b384e15a1a8.jpg?t[]=*q50$image
+
+  ! Remove world cup spam
+    vg.no##html:remove-attr(data-vg-world-cup-takeover)
+    vg.no##html:remove-attr(data-vg-world-cup-takeover-size)
+    vg.no##.video-flag
+    vg.no##.history
+    vg.no##div.ratio-container:nth-of-type(3)
+    vg.no##.canvas > .wrapper
+    vg.no##.vg-logo-v.vg-logo-part
+    vg.no##.front.face > .vg-logo-g.vg-logo-part
+    vg.no##.bottom.face > .vg-logo-m.vg-logo-part
+    vg.no##.back.face > .vg-logo-g.vg-logo-part
+    vg.no##.top.face > .vg-logo-m.vg-logo-part
 
 
 ! https://www.dagbladet.no
-! Block entire website
-||dagbladet.no
+  ! Block entire website
+  ||dagbladet.no
+
 
 ! https://www.digi.no
-digi.no##.tp-modal
-digi.no##.tp-active.tp-backdrop
-digi.no##body:style(overflow: auto !important)
-digi.no##html:style(overflow: auto !important)
+  digi.no##.tp-modal
+  digi.no##.tp-active.tp-backdrop
+  digi.no##body:style(overflow: auto !important)
+  digi.no##html:style(overflow: auto !important)
+
 
 ! https://www.sparebank1.no
-sparebank1.no##.kampanjebanner
+  sparebank1.no##.kampanjebanner
+
 
 ! https://www.insidetelecom.no
-insidetelecom.no##.tp-modal
-insidetelecom.no##.tp-active.tp-backdrop
+  insidetelecom.no##.tp-modal
+  insidetelecom.no##.tp-active.tp-backdrop
+
 
 ! https://www.proshop.no
-proshop.no##.visible-lg.site-background-cta
+  proshop.no##.visible-lg.site-background-cta
+
 
 ! https://www.innherred.no
-innherred.no##.gdpr-modal
+  innherred.no##.gdpr-modal
 
