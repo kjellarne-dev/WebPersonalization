@@ -138,6 +138,7 @@
     vg.no##[id^="finn-_article-"]
     vg.no##vg-dynamic-widget
     vg.no##dr-edition-track-element
+    vg.no##[class^="partnerstudio"]
 
   ! Remove word explainer text to fix the graphical glitches
     vg.no##abbr:style(border-style: none !important)
