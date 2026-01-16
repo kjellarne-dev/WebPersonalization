@@ -137,8 +137,14 @@
     vg.no##[id^="finn-netboard_article-"]
     vg.no##[id^="finn-_article-"]
     vg.no##vg-dynamic-widget
-    vg.no##abbr:style(border-style: none !important)
     vg.no##dr-edition-track-element
+
+  ! Remove word explainer text to fix the graphical glitches
+    vg.no##abbr:style(border-style: none !important)
+    vg.no##abbr:remove-attr(class)
+    vg.no##abbr:remove-attr(tabindex)
+    vg.no##abbr:remove-attr(title)
+    vg.no##abbr>span
 
   ! Block the banner that appears at the top of the page occasionally
     vg.no##:xpath(//push-banner)
