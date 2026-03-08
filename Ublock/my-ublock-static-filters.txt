@@ -139,6 +139,7 @@
     vg.no##vg-dynamic-widget
     vg.no##dr-edition-track-element
     vg.no##[class^="partnerstudio"]
+    vg.no##vg-sprengkulde
 
   ! Remove word explainer text to fix the graphical glitches
     vg.no##abbr:style(border-style: none !important)
@@ -208,3 +209,32 @@
 ! https://www.innherred.no
   innherred.no##.gdpr-modal
 
+
+! https://www.virtualbox.org
+||www.virtualbox.org/graphics/patterned-background.png$image
+
+
+! https://www.nrk.no
+  ! General topic blockers
+    nrk.no##:xpath(//div[div/a[contains(@href,"/sport/")]])
+    nrk.no##:xpath(//div[div/a[contains(@href,"/vintersport/")]])
+    nrk.no##:xpath(//div[div/a[contains(@href,"/paralympics/")]])
+    nrk.no##:xpath(//div[div/a[contains(@href,"/video/")]])
+    nrk.no##:xpath(//div[div/a[contains(@href,"/p3/")]])
+    nrk.no##:xpath(//div[div/a[contains(@href,"/anmeldelser/")]])
+    
+  ! Block video/TV/Radio sections
+    nrk.no##:xpath(//div[div/a[contains(@href,"radio.nrk.no")]])
+    nrk.no##:xpath(//div[div/a[contains(@href,"tv.nrk.no")]])
+    nrk.no##:xpath(//div[div/a[contains(@href,"tv.nrk.no")]])
+    nrk.no##:xpath(//section[div/h2/span[contains(text(),"NRK TV og NRK Radio")]])
+    nrk.no##:xpath(//section[div/h2/span[contains(text(),"Videoer fra NRK")]])
+    nrk.no##:xpath(//section[div/h2/span[contains(text(),"NRK Forklarer")]])
+    
+  ! Block banners and random modules
+    nrk.no##dh-sportsbanner-v2
+    nrk.no##dh-frontmodul-spill-v1-0-18-index
+    nrk.no##nrkno-ditt-distrikt
+    
+  ! Remove red outlining from certain topics
+    nrk.no##span:remove-class(emphasis-high)
