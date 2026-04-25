@@ -127,6 +127,24 @@
     vg.no##:xpath(//section[div/div/a[contains(@href,"ikke-lov-a-le-pa-hytta")]])
     vg.no##:xpath(//section[header[a[contains(@href,"tv.vg.no")]]])
 
+  ! More filters based on the new astro layout
+    vg.no##:xpath(//astro-island[track-element/article/a[contains(@href,"/dinepenger/")]])
+    vg.no##:xpath(//astro-island[track-element/article/a[contains(@href,"/sport/")]])
+    vg.no##:xpath(//astro-island[track-element/article/a[contains(@href,"butikk.vg.no/")]])
+    vg.no##:xpath(//astro-island[track-element/article/a[contains(@href,"/spill/")]])
+    vg.no##:xpath(//astro-island[track-element/article/a[contains(@href,"/rampelys/")]])
+    vg.no##:xpath(//astro-island[track-element/article/a[contains(@href,"vektklubb.no/")]])
+    vg.no##:xpath(//astro-island[track-element/article/a[contains(@href,"godt.no/")]])
+    vg.no##:xpath(//astro-island[track-element/article/a[contains(@href,"tek.no/")]])
+    vg.no##:xpath(//astro-island[track-element/article/a[contains(@href,"minmote.no/")]])
+    vg.no##:xpath(//astro-island[track-element/article/a[contains(@href,"/mat-og-drikke/")]])
+    vg.no##:xpath(//astro-island[track-element/article/a[contains(@href,"/rikets-roast")]])
+    vg.no##:xpath(//astro-island[track-element/article/a[contains(@href,"vg.e-pages.pub/")]])
+    vg.no##:xpath(//astro-island[track-element/article/a[contains(@href,"tv.vg.no")]])
+    vg.no##:xpath(//astro-island[track-element/article/a[contains(@href,"eavis.vg.no")]])
+    vg.no##:xpath(//track-element[article/a[contains(@href,"tv.vg.no")]])
+    vg.no##[props*="vertical-video-carousel"]
+
   ! Block paywalled content, ads, and time sensitive content
     vg.no##.is-paywalled
     vg.no##.finn-blink-loaded
@@ -139,6 +157,7 @@
     vg.no##vg-dynamic-widget
     vg.no##dr-edition-track-element
     vg.no##[class^="partnerstudio"]
+    vg.no##[class^="dr-edition-wrapper"]
     vg.no##vg-sprengkulde
 
   ! Remove word explainer text to fix the graphical glitches
@@ -179,6 +198,10 @@
     vg.no##.bottom.face > .vg-logo-m.vg-logo-part
     vg.no##.back.face > .vg-logo-g.vg-logo-part
     vg.no##.top.face > .vg-logo-m.vg-logo-part
+  
+  ! Other generic spam
+    vg.no##kommuner-med-sterkest-vind-front
+    vg.no##:xpath(//article[div/a[contains(@href,"/langrenn/")]])
 
 
 ! https://www.dagbladet.no
@@ -211,7 +234,7 @@
 
 
 ! https://www.virtualbox.org
-||www.virtualbox.org/graphics/patterned-background.png$image
+  ||www.virtualbox.org/graphics/patterned-background.png$image
 
 
 ! https://www.nrk.no
@@ -238,3 +261,6 @@
     
   ! Remove red outlining from certain topics
     nrk.no##span:remove-class(emphasis-high)
+
+! https://www.e24.no
+  e24.no##:xpath(//div[div/div/div[contains(@id,"summary-details")]])
